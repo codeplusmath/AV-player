@@ -1,0 +1,15 @@
+{
+  "name": "Swift Codespace",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash"
+  },
+  "extensions": [
+    "sswg.swift-lang"  // Swift extension for VS Code
+  ],
+  "forwardPorts": [],
+  "postCreateCommand": "swift build",
+  "remoteUser": "vscode"
+}
